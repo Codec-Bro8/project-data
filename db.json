@@ -1,0 +1,171 @@
+{
+    "restaurant": {
+      "foodMenu": [
+        {
+          "id": 1,
+          "name": "Jollof Rice",
+          "image": "/assets/fooditem.png",
+          "tags": ["chicken","Spicy", "sausage"],
+          "category": "combo pack",
+          "price": 10.99,
+          "isLive": false
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti",
+          "image": "/assets/fooditem.png",
+          "tags": ["spicy", "sausage"],
+          "category": "july special",
+          "price": 10.99,
+          "isLive": true
+        },
+        {
+          "id": 3,
+          "name": "Fried Rice",
+          "image": "/assets/fooditem.png",
+          "tags": ["sausage"],
+          "category": "Fire package",
+          "price": 10.99,
+          "isLive": true
+        },
+        {
+          "id": 4,
+          "name": "Smoked suya",
+          "image": "/assets/fooditem.png",
+          "tags": ["smoky", "spicy"],
+          "category": "Family size",
+          "price": 10.99,
+          "isLive": true
+        },
+        {
+          "id": 5,
+          "name": "Bread and egg",
+          "image": "/assets/fooditem.png",
+          "tags": ["chicken", "sausage"],
+          "category": "shallom pack",
+          "price": 10.99,
+          "isLive": true
+        },
+        {
+          "id": 6,
+          "name": "Hamburger",
+          "image": "/assets/fooditem.png",
+          "tags": ["snacks"],
+          "category": "single Man",
+          "price": 10.99,
+          "isLive": true
+        },
+        {
+          "id": 7,
+          "name": "Hotdog shawarma",
+          "image": "/assets/fooditem.png",
+          "tags": ["sausage", "smoky"],
+          "category": "Married woman",
+          "price": 10.99,
+          "isLive": true
+        },
+        {
+          "id": 8,
+          "name": "Eba and Egusi",
+          "image": "/assets/fooditem.png",
+          "tags": ["swallow", "spicy"],
+          "category": "shallom pack",
+          "price": 10.99,
+          "isLive": true
+        },
+        {
+          "id": 9,
+          "name": "smoked fish",
+          "image": "/assets/fooditem.png",
+          "tags": ["spicy"],
+          "category": "combo pack",
+          "price": 10.99,
+          "isLive": true
+        },
+        {
+          "id": 10,
+          "name": "Pretzels",
+          "image": "/assets/fooditem.png",
+          "tags": ["snacks", "chicken"],
+          "category": "Married woman",
+          "price": 10.99,
+          "isLive": true
+        },
+        {
+          "id": 11,
+          "name": "Egg sauce and fried yam",
+          "image": "/assets/fooditem.png",
+          "tags": ["yam", "spicy"],
+          "category": "combo pack",
+          "price": 10.99,
+          "isLive": true
+        }
+      ],
+      "menuCategories": [
+        {
+          "id": 1,
+          "name": "Main Course",
+          "isLive": true
+        },
+        {
+          "id": 2,
+          "name": "dessert",
+          "isLive": false
+        },
+        {
+          "id": 3,
+          "name": "Dinner",
+          "isLive": true
+        }
+      ],
+      "menuOptions": [
+        {
+          "id": 1,
+          "name": "Combo Meal",
+          "items": ["Jollof Rice", "Chicken"],
+          "isLive": true
+        }
+      ],
+      "optionalItems": [
+        {
+          "id": 1,
+          "category": "Add-ons",
+          "price": 2.99,
+          "isLive": true
+        }
+      ]
+    },
+    "orders": [
+      {
+        "id": 1,
+        "customer": "John Doe",
+        "items": ["Jollof Rice", "Chicken"],
+        "total": 20.99,
+        "status": "completed"
+      }
+    ],
+    "earnings": [
+      {
+        "date": "2024-05-17",
+        "totalEarnings": 150.00
+      }
+    ],
+    "reservations": [
+      {
+        "id": 1,
+        "customer": "Jane Smith",
+        "date": "2024-05-20",
+        "time": "18:30",
+        "status": "confirmed"
+      }
+    ],
+    "messages": [
+      {
+        "id": 1,
+        "from": "Customer Support",
+        "message": "Your order has been shipped",
+        "date": "2024-05-16"
+      }
+    ]
+  }
+  

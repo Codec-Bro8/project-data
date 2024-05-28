@@ -151,14 +151,61 @@
       }
     ],
     "reservations": [
-      {
-        "id": 1,
-        "customer": "Jane Smith",
-        "date": "2024-05-20",
-        "time": "18:30",
-        "status": "confirmed"
-      }
-    ],
+    {
+      "id": 1,
+      "name": "John Doe",
+      "partySize": 4,
+      "dateTime": "2024-05-31T19:00:00",
+      "phoneNumber": "+1234567890",
+      "tableNumber": null,
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "partySize": 2,
+      "dateTime": "2024-06-01T18:30:00",
+      "phoneNumber": "+9876543210",
+      "tableNumber": 3,
+      "status": "confirmed"
+    },
+    {
+      "id": 3,
+      "name": "David Lee",
+      "partySize": 1,
+      "dateTime": "2024-05-30T17:00:00",
+      "phoneNumber": "+5551234567",
+      "tableNumber": 1,
+      "status": "seated"
+    },
+    {
+      "id": 4,
+      "name": "Emily Garcia",
+      "partySize": 6,
+      "dateTime": "2024-06-02T20:00:00",
+      "phoneNumber": "+9182736450",
+      "tableNumber": null,
+      "status": "waiting"
+    },
+    {
+      "id": 5,
+      "name": "Michael Brown",
+      "partySize": 3,
+      "dateTime": "2024-05-29T21:00:00",
+      "phoneNumber": "+44207986321",
+      "tableNumber": 5,
+      "status": "completed"
+    },
+    {
+      "id": 6,
+      "name": "Sarah Jones (Walk-in)",
+      "partySize": 2,
+      "dateTime": "2024-05-28T18:45:00",
+      "phoneNumber": "",  // No phone number provided for walk-ins
+      "tableNumber": 2,
+      "status": "seated"
+    },
+  ],
     "messages": [
       {
         "id": 1,

@@ -201,10 +201,10 @@
       "name": "Sarah Jones (Walk-in)",
       "partySize": 2,
       "dateTime": "2024-05-28T18:45:00",
-      "phoneNumber": "",  // No phone number provided for walk-ins
+      "phoneNumber": "",  
       "tableNumber": 2,
       "status": "seated"
-    },
+    }
   ],
     "messages": [
       {

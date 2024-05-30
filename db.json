@@ -445,69 +445,6 @@
         "phoneNumber": "+5551234568",
         "tableNumber": 13,
         "status": "cancelled"
-      },
-      {
-        "id": 14,
-        "name": "Daisy Duck",
-        "partySize": 1,
-        "dateTime": "2024-06-06T20:00:00",
-        "phoneNumber": "+9182736451",
-        "tableNumber": 14,
-        "status": "new"
-      },
-      {
-        "id": 15,
-        "name": "Eve Adams",
-        "partySize": 2,
-        "dateTime": "2024-06-07T21:00:00",
-        "phoneNumber": "+44207986327",
-        "tableNumber": 15,
-        "status": "accepted"
-      },
-      {
-        "id": 16,
-        "name": "Frank Miller",
-        "partySize": 3,
-        "dateTime": "2024-06-08T18:45:00",
-        "phoneNumber": "+44207986328",  
-        "tableNumber": 16,
-        "status": "cancelled"
-      },
-      {
-        "id": 17,
-        "name": "Grace Kelly",
-        "partySize": 4,
-        "dateTime": "2024-06-09T19:00:00",
-        "phoneNumber": "+1234567892",
-        "tableNumber": 17,
-        "status": "new"
-      },
-      {
-        "id": 18,
-        "name": "Hank Green",
-        "partySize": 5,
-        "dateTime": "2024-06-10T18:30:00",
-        "phoneNumber": "+9876543212",
-        "tableNumber": 18,
-        "status": "accepted"
-      },
-      {
-        "id": 19,
-        "name": "Ivy Lee",
-        "partySize": 1,
-        "dateTime": "2024-06-11T17:00:00",
-        "phoneNumber": "+5551234569",
-        "tableNumber": 19,
-        "status": "cancelled"
-      },
-      {
-        "id": 20,
-        "name": "Jack Black",
-        "partySize": 6,
-        "dateTime": "2024-06-12T20:00:00",
-        "phoneNumber": "+9182736452",
-        "tableNumber": 20,
-        "status": "new"
       }
     ]
     ,

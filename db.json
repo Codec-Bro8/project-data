@@ -329,61 +329,278 @@
       }
     ],
     "reservations": [
-    {
-      "id": 1,
-      "name": "John Doe",
-      "partySize": 4,
-      "dateTime": "2024-05-31T19:00:00",
-      "phoneNumber": "+1234567890",
-      "tableNumber": null,
-      "status": "pending"
-    },
-    {
-      "id": 2,
-      "name": "Jane Smith",
-      "partySize": 2,
-      "dateTime": "2024-06-01T18:30:00",
-      "phoneNumber": "+9876543210",
-      "tableNumber": 3,
-      "status": "confirmed"
-    },
-    {
-      "id": 3,
-      "name": "David Lee",
-      "partySize": 1,
-      "dateTime": "2024-05-30T17:00:00",
-      "phoneNumber": "+5551234567",
-      "tableNumber": 1,
-      "status": "seated"
-    },
-    {
-      "id": 4,
-      "name": "Emily Garcia",
-      "partySize": 6,
-      "dateTime": "2024-06-02T20:00:00",
-      "phoneNumber": "+9182736450",
-      "tableNumber": null,
-      "status": "waiting"
-    },
-    {
-      "id": 5,
-      "name": "Michael Brown",
-      "partySize": 3,
-      "dateTime": "2024-05-29T21:00:00",
-      "phoneNumber": "+44207986321",
-      "tableNumber": 5,
-      "status": "completed"
-    },
-    {
-      "id": 6,
-      "name": "Sarah Jones (Walk-in)",
-      "partySize": 2,
-      "dateTime": "2024-05-28T18:45:00",
-      "phoneNumber": "",  
-      "tableNumber": 2,
-      "status": "seated"
-    }
-  ],
+      {
+        "id": 1,
+        "name": "John Doe",
+        "partySize": 4,
+        "dateTime": "2024-05-31T19:00:00",
+        "phoneNumber": "+1234567890",
+        "tableNumber": 1,
+        "status": "new"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "partySize": 2,
+        "dateTime": "2024-06-01T18:30:00",
+        "phoneNumber": "+9876543210",
+        "tableNumber": 3,
+        "status": "accepted"
+      },
+      {
+        "id": 3,
+        "name": "David Lee",
+        "partySize": 1,
+        "dateTime": "2024-05-30T17:00:00",
+        "phoneNumber": "+5551234567",
+        "tableNumber": 4,
+        "status": "cancelled"
+      },
+      {
+        "id": 4,
+        "name": "Emily Garcia",
+        "partySize": 6,
+        "dateTime": "2024-06-02T20:00:00",
+        "phoneNumber": "+9182736450",
+        "tableNumber": 2,
+        "status": "new"
+      },
+      {
+        "id": 5,
+        "name": "Michael Brown",
+        "partySize": 3,
+        "dateTime": "2024-05-29T21:00:00",
+        "phoneNumber": "+44207986321",
+        "tableNumber": 5,
+        "status": "accepted"
+      },
+      {
+        "id": 6,
+        "name": "Sarah Jones",
+        "partySize": 2,
+        "dateTime": "2024-05-28T18:45:00",
+        "phoneNumber": "+44207986322",  
+        "tableNumber": 6,
+        "status": "cancelled"
+      },
+      {
+        "id": 7,
+        "name": "David Jones",
+        "partySize": 1,
+        "dateTime": "2024-05-28T18:45:00",
+        "phoneNumber": "+44207986323",  
+        "tableNumber": 7,
+        "status": "accepted"
+      },
+      {
+        "id": 8,
+        "name": "Elijah Daniel",
+        "partySize": 6,
+        "dateTime": "2024-05-28T18:45:00",
+        "phoneNumber": "+44207986324",  
+        "tableNumber": 8,
+        "status": "new"
+      },
+      {
+        "id": 9,
+        "name": "Holy Bass",
+        "partySize": 3,
+        "dateTime": "2024-05-28T18:45:00",
+        "phoneNumber": "+44207986325",  
+        "tableNumber": 9,
+        "status": "cancelled"
+      },
+      {
+        "id": 10,
+        "name": "Every Hall",
+        "partySize": 5,
+        "dateTime": "2024-05-28T18:45:00",
+        "phoneNumber": "+44207986326",  
+        "tableNumber": 10,
+        "status": "accepted"
+      },
+      {
+        "id": 11,
+        "name": "Alice Wonderland",
+        "partySize": 4,
+        "dateTime": "2024-06-03T19:30:00",
+        "phoneNumber": "+1234567891",
+        "tableNumber": 11,
+        "status": "new"
+      },
+      {
+        "id": 12,
+        "name": "Bob Builder",
+        "partySize": 2,
+        "dateTime": "2024-06-04T18:45:00",
+        "phoneNumber": "+9876543211",
+        "tableNumber": 12,
+        "status": "accepted"
+      },
+      {
+        "id": 13,
+        "name": "Charlie Brown",
+        "partySize": 3,
+        "dateTime": "2024-06-05T17:15:00",
+        "phoneNumber": "+5551234568",
+        "tableNumber": 13,
+        "status": "cancelled"
+      },
+      {
+        "id": 14,
+        "name": "Daisy Duck",
+        "partySize": 1,
+        "dateTime": "2024-06-06T20:00:00",
+        "phoneNumber": "+9182736451",
+        "tableNumber": 14,
+        "status": "new"
+      },
+      {
+        "id": 15,
+        "name": "Eve Adams",
+        "partySize": 2,
+        "dateTime": "2024-06-07T21:00:00",
+        "phoneNumber": "+44207986327",
+        "tableNumber": 15,
+        "status": "accepted"
+      },
+      {
+        "id": 16,
+        "name": "Frank Miller",
+        "partySize": 3,
+        "dateTime": "2024-06-08T18:45:00",
+        "phoneNumber": "+44207986328",  
+        "tableNumber": 16,
+        "status": "cancelled"
+      },
+      {
+        "id": 17,
+        "name": "Grace Kelly",
+        "partySize": 4,
+        "dateTime": "2024-06-09T19:00:00",
+        "phoneNumber": "+1234567892",
+        "tableNumber": 17,
+        "status": "new"
+      },
+      {
+        "id": 18,
+        "name": "Hank Green",
+        "partySize": 5,
+        "dateTime": "2024-06-10T18:30:00",
+        "phoneNumber": "+9876543212",
+        "tableNumber": 18,
+        "status": "accepted"
+      },
+      {
+        "id": 19,
+        "name": "Ivy Lee",
+        "partySize": 1,
+        "dateTime": "2024-06-11T17:00:00",
+        "phoneNumber": "+5551234569",
+        "tableNumber": 19,
+        "status": "cancelled"
+      },
+      {
+        "id": 20,
+        "name": "Jack Black",
+        "partySize": 6,
+        "dateTime": "2024-06-12T20:00:00",
+        "phoneNumber": "+9182736452",
+        "tableNumber": 20,
+        "status": "new"
+      },
+      {
+        "id": 21,
+        "name": "Katie Perry",
+        "partySize": 3,
+        "dateTime": "2024-06-13T21:00:00",
+        "phoneNumber": "+44207986329",
+        "tableNumber": 21,
+        "status": "accepted"
+      },
+      {
+        "id": 22,
+        "name": "Liam Neeson",
+        "partySize": 2,
+        "dateTime": "2024-06-14T18:45:00",
+        "phoneNumber": "+44207986330",  
+        "tableNumber": 22,
+        "status": "cancelled"
+      },
+      {
+        "id": 23,
+        "name": "Mia Farrow",
+        "partySize": 4,
+        "dateTime": "2024-06-15T19:00:00",
+        "phoneNumber": "+1234567893",
+        "tableNumber": 23,
+        "status": "new"
+      },
+      {
+        "id": 24,
+        "name": "Nate Parker",
+        "partySize": 2,
+        "dateTime": "2024-06-16T18:30:00",
+        "phoneNumber": "+9876543213",
+        "tableNumber": 24,
+        "status": "accepted"
+      },
+      {
+        "id": 25,
+        "name": "Olivia Wilde",
+        "partySize": 3,
+        "dateTime": "2024-06-17T17:00:00",
+        "phoneNumber": "+5551234570",
+        "tableNumber": 25,
+        "status": "cancelled"
+      },
+      {
+        "id": 26,
+        "name": "Paul Walker",
+        "partySize": 1,
+        "dateTime": "2024-06-18T20:00:00",
+        "phoneNumber": "+9182736453",
+        "tableNumber": 26,
+        "status": "new"
+      },
+      {
+        "id": 27,
+        "name": "Quincy Jones",
+        "partySize": 6,
+        "dateTime": "2024-06-19T21:00:00",
+        "phoneNumber": "+44207986331",
+        "tableNumber": 27,
+        "status": "accepted"
+      },
+      {
+        "id": 28,
+        "name": "Rachel Green",
+        "partySize": 2,
+        "dateTime": "2024-06-20T18:45:00",
+        "phoneNumber": "+44207986332",  
+        "tableNumber": 28,
+        "status": "cancelled"
+      },
+      {
+        "id": 29,
+        "name": "Sam Smith",
+        "partySize": 4,
+        "dateTime": "2024-06-21T19:00:00",
+        "phoneNumber": "+1234567894",
+        "tableNumber": 29,
+        "status": "new"
+      },
+      {
+        "id": 30,
+        "name": "Tina Turner",
+        "partySize": 5,
+        "dateTime": "2024-06-22T18:30:00",
+        "phoneNumber": "+9876543214",
+        "tableNumber": 30,
+        "status": "accepted"
+      }
+    ]
+    ,
     "messages": [
       {
         "id": 1,
